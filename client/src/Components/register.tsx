@@ -16,7 +16,7 @@ export default function Register() {
 
   const onRegisterClicked = () => {
     try {
-      const response = axios.post('http://localhost:3001/users', {
+      const response = axios.post('http://localhost:3001/users/register', {
         userName,
         password,
       });

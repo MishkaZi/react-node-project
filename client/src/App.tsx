@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Register from './Components/register';
+import Router from './Router/Router';
 
 function App() {
   return (
-    <div className="App">
-      <Register/>
-    </div>
+    
+      <div className='App'>
+        <Router />
+      </div>
   );
 }
 
